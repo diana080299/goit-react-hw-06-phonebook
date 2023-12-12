@@ -6,9 +6,8 @@ const Container = styled.div`
   align-items: center;
   gap: 15px;
 `;
-const Title = styled.h3``;
 const Input = styled.input`
   padding: 10px;
 `;
 
-export { Title, Input, Container };
+export { Input, Container };
