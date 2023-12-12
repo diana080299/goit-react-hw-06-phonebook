@@ -1,16 +1,24 @@
+import { ContactList } from './ContactList/ContactList';
+import { Filter } from './Filter/Filter';
 import { SearchForm } from './SearchForm/SearchForm';
 
 export const App = () => {
   return (
     <div
-      style={{
-        height: '100vh',
+      tyle={{
         display: 'flex',
+        gap: '40px',
+        flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
+        alignItems: 'flex-start',
+        fontSize: 30,
         color: '#010101',
+        marginLeft: '20px',
       }}
-    ></div>
+    >
+      <SearchForm />
+      <Filter />
+      <ContactList />
+    </div>
   );
 };
