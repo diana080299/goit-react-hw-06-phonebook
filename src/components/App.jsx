@@ -10,10 +10,10 @@ export const App = () => {
         gap: '40px',
         flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'flex-start',
         fontSize: 30,
         color: '#010101',
         marginLeft: '20px',
+        width: 'fit-content',
       }}
     >
       <SearchForm />
